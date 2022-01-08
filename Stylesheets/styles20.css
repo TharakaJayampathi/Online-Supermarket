@@ -1,0 +1,561 @@
+@charset "utf-8"
+
+html, body {
+    position:relative;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+	width:auto;
+}
+
+.main_head {
+	position: relative;
+	width: auto;
+    height: 225px;
+	top: ;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-style: solid;
+	border-color: #FF0000;  /* Red */
+	border-width: 3px;
+    border-radius: 5px;
+	overflow: hidden;
+	background-color: #f1f1f1;  /* Grey */
+}
+.upperline button {
+	
+	font-size: 16px;
+	font-weight: bold;
+	padding: 10px 14px;
+	background-color: #4CAF50;  /* Green */
+	border-color: #00700F;  /* Green */
+	border-style: solid;
+	border-width: 1px;
+	float: left;
+	text-align: center;
+    display: inline-block;
+    cursor: pointer;
+	
+}
+
+.leftb {
+	position: relative;
+	top: -460px;
+	display: block;
+	margin-left: -160px;
+	text-align: center;
+	
+}
+.leftb button{
+	 background-color: #4CAF50; 
+	 font-weight: bold;
+    border-style: solid;
+	border-color: green; 
+    color: white;
+    padding: 39px 98px;
+	text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 19px;
+    cursor: pointer;
+    width: 19px;
+    display: block;
+}
+.leftb button:hover {
+	background-color: #3e8e41;  /* Light Green */
+}
+
+.leftb a {
+	text-decoration: none;
+	color: #FFFFFF;  /* White */
+}
+
+.leftb a:hover {
+	color: #020202;  /* Black */
+}
+.b1{
+	
+    color: white;
+    float: right; 
+}
+.body{
+	background:url(images/body.jpg);
+	background-size:100% 100%;
+	background-repeat:repeat;
+}
+.logo {
+	position: relative;
+	width: 270px;
+	height: 220px;
+}
+
+.logo img {
+	position: relative;
+	top: 2px;
+	left: -5px;
+	width: 260px;
+	height: 190px;
+}
+
+.name {
+	position: relative;
+	width: 290px;
+	height: 50px;
+	left: 270px;
+	top: -210px;
+}
+
+.name a {
+	text-decoration: none;
+}
+
+.name a:link {
+	color: #161F63; /* Dark Blue */
+}
+
+.name a:visited {
+	color: #161F63; /* Dark Blue */
+}
+
+.name a:hover {
+	color: #161F63;  /* Dark Blue */
+}
+
+.name a:active {
+	color: #161F63;  /* Dark Blue */
+}
+
+.name h1 {
+	font-size: 50px;
+}
+
+.topics {
+	position: relative;
+	left: 340px;
+	top: -135px;
+	font-weight: bold;
+}
+
+.topics a {
+	margin-right: 65px;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+.topics a:link {
+	color: #0F17B4;  /* Blue */ 
+}
+
+.topics a:visited {
+	color: #0F17B4;  /* Blue */
+}
+
+.topics a:hover {
+	color: #161F63;  /* Dark Blue */
+	text-decoration: underline;
+}
+
+.topics a:active {
+	color: #A70707;  /* Dark Red */
+}
+
+.cart {
+	position: relative;
+	left: 868px;
+	top: -325px;
+}
+
+
+
+.shopping {
+	position: relative;
+	left: 725px;
+	top: -300px;
+	width: 160px;
+	height: 40px;
+}
+
+.shopping a {
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.shopping a:link {
+	color: #18182C;  /* Dark Blue */
+}
+
+.shopping a:visited {
+	color: #18182C;  /* Dark Blue */
+}
+
+.shopping a:hover {
+	color: #18182C;  /* Dark Blue */
+	text-decoration: underline;
+}
+
+.shopping a:active {
+	color: #A70707;;  /* Dark Red */
+}
+
+.signOut {
+	position: relative;
+	left: 925px;
+	top: -370px;
+	width: 100px;
+	height: 30px;
+}
+
+.signOut a {
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.signOut a:link {
+	color: #18182C;  /* Dark Blue */
+}
+
+.signOut a:visited {
+	color: #18182C;  /* Dark Blue */
+}
+
+.signOut a:hover {
+	color: #18182C;  /* Dark Blue */
+	text-decoration: underline;
+}
+
+.signOut a:active {
+	color: #A70707;  /* Dark Red */
+}
+
+.profile {
+	position: relative;
+	width: 95px;
+	height: 110px;
+}
+
+.profile img {
+	position: relative;
+	width: 100px;
+	height: 110px;
+	left: 1005px;
+	top: -445px;
+}
+
+.image {
+	opacity: 1;
+	display: block;
+	transition: .5s ease;
+	backface-visibility: hidden;
+}
+
+.middle {
+	transition: .5s ease;
+	opacity: 0;
+	position: relative;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+.text_profile {
+	position: relative;
+	background-color: #191434;  /* Dark Blue */
+	color: #FFFFFF;  /* White */
+	font-size: 16px;
+	padding: 5px 5px;
+	left: 1055px;
+	top: -495px;
+}
+
+.text_profile a {
+	text-decoration: none;
+	color: #FFFFFF;  /* White */ 
+}
+
+.text_profile a:visited {
+	color: #FFFFFF;  /* White */
+}
+
+.text_profile a:hover {
+	color: #FFC300;  /* Yellow */
+}
+
+.text_profile a:active {
+	color: #FF5733  /* Orange */
+}
+ 
+.profile:hover .image {
+	opacity: 0.3;
+}
+
+.profile:hover .middle {
+	opacity: 1;
+}
+
+.signIn {
+	position: relative;
+	left: 980px;
+	top: -410px;
+	border-color: #18182C;  /* Dark Blue */
+	border-style: solid;
+	border-width: 2px;
+	border-radius: 5px;
+	text-align: center;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.signIn a {
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.signIn a:link {
+	color: #18182C;  /* Dark Blue */
+}
+
+.signIn a:visited {
+	color: #18182C;  /* Dark Blue */
+}
+
+.signIn a:hover {
+	color: #18182C;  /* Dark Blue */
+	text-decoration: underline;
+}
+
+.signIn a:active {
+	color: #A70707;  /* Dark Red */
+}
+
+.register {
+	position: relative;
+	left: 883px;
+	top: -360px;
+	border-color: #18182C;  /* Dark Blue */
+	border-style: solid;
+	border-width: 2px;
+	border-radius: 5px;
+	text-align: center;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.register a {
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.register a:link {
+	color: #18182C;  /* Dark Blue */
+}
+
+.register a:visited {
+	color: #18182C;  /* Dark Blue */
+}
+
+.register a:hover {
+	color: #18182C;  /* Dark Blue */
+	text-decoration: underline;
+}
+
+.register a:active {
+	color: #A70707;  /* Dark Red */
+}
+.offers {
+	position: relative;
+	left: 10px;
+	top: 5px;
+	width: 450px;
+    height: 54px;
+    border: solid;
+	border-radius: 10px;
+	border-color: #161F63;  /* Dark Blue */
+	text-align: center;
+}
+
+.offers a {
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 42px;
+	top: -40px;
+	margin-left:4px;
+}
+
+.offers a:link {
+	color: #0400FF;  /* Blue */
+}
+
+.offers a:visited {
+	color: #0400FF;  /* Blue */
+}
+
+.offers a:hover {
+	color: #FF0000;  /* Red */
+}
+
+.offers a:active {
+	color: #900C3F;  /* Purple */
+}
+
+.search [type=text] {
+	position: relative;
+	width: 200px;
+	height: 35px;
+	top: -50px;
+	padding: 6px;
+    font-size: 20px;
+    border: solid;
+    border-width: 2px;
+    border-radius: 25px;
+	float:right;
+}
+
+.navigation {
+	position: relative;
+	top: 30px;
+	left: 30px;
+	margin-left: 70px;
+}
+
+.navigation button {
+	font-size: 16px;
+	font-weight: bold;
+	padding: 10px 15px;
+	background-color: #4CAF50;  /* Green */
+	border-color: #00700F;  /* Green */
+	border-style: solid;
+	border-width: 1px;
+	float: left;
+	text-align: center;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.navigation button:hover {
+	background-color: #3e8e41;  /* Light Green */
+}
+
+.navigation a {
+	text-decoration: none;
+	color: #FFFFFF;  /* White */
+}
+
+.navigation a:hover {
+	color: #020202;  /* Black */
+}
+
+.content {
+	margin-left: 175px;
+	margin-right: 200px;
+}
+
+.footer {
+	position: relative;
+	width: auto;
+    height: 100px;
+	top:auto ;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-style: solid;
+	border-color: #FF0000;  /* Red */
+	border-width: 3px;
+    border-radius: 5px;
+	overflow: hidden;
+	background-color: #f1f1f1;  /* Grey */
+}
+
+.txt {
+	position: relative;
+	left: 20px;
+	top: 20px;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.txt a {
+	text-decoration: none;
+}
+
+.txt a:link {
+	color: #020202; 
+}
+
+.txt a:visited {
+	color: #020202; 
+}
+
+.txt a:hover {
+	color: #020202;  /* Black */
+	text-decoration: underline;
+}
+
+.txt a:active {
+	color: #161F63;  /* Dark Blue */
+}
+
+.cards img {  
+	position: relative;
+	width: 300px;
+	height: 90px;
+	left:910px;
+	top: -75px;
+}
+.ofrs {
+	position: relative;
+	width: auto;
+    height: 70px;
+	top: ;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-style: solid;
+	border-color: #FF0000;  /* Red */
+	border-width: 3px;
+    border-radius: 5px;
+	overflow: hidden;
+	background-color: #f1f1f1;  /* Grey */
+}
+body {
+	background: ;
+	font-family: Arial, Helvetica, sans-serif;
+	
+	}
+
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=send] {
+    background-color: #4CAF50;
+    color: white;
+	font-size:20px;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=send]:hover {
+    background-color: #45a049;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 12px;
+	left:0px;
+}
+.other1{
+	text-align: left;
+}

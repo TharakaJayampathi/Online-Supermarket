@@ -1,0 +1,206 @@
+<!--Credit Card Payment-->
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width initial-scale=1.0" />
+
+    <title>Credit Card Payment</title>
+
+    <link href="Stylesheets/Header and Footer.css" rel="stylesheet" type="text/css" />
+    <link href="Stylesheets/Credit Card Payment.css" rel="stylesheet" type="text/css" />
+
+    <script src="JavaScript/Credit Card.js"></script>
+
+</head>
+
+<body>
+
+    <!--HEADER-->
+
+    <header>
+
+        <div class="main_head">
+
+            <div class="logo">
+                <a href="Home.html">
+                    <img src="Images/logo.jpg" alt="logo" />
+                </a>
+            </div>
+
+            <div class="name">
+                <a href="Home.html">
+                    <h1>Store 2 Door </h1>
+                </a>
+            </div>
+
+            <div class="topics">
+                <a href="About Us.html" target="_blank">About Us </a>
+                <a href="Customer Feedback.html" target="_blank">Customer Feedback </a>
+                <a href="Contact Us.html" target="_blank">Contact Us </a>
+                <a href="Privacy Policy.html" target="_blank">Privacy Policy </a>
+            </div>
+
+            <div class="cart">
+                <a href="Shopping Cart.html" target="_blank">
+                    <img src="Images/cart.jpg" alt="shopping cart" />
+                </a>
+            </div>
+
+            <div class="shopping">
+                <a href="Shopping Cart.html" target="_blank">My Shopping Cart </a>
+            </div>
+
+            <div class="signOut">
+                <a href="Home.html">Sign Out</a>
+            </div>
+
+            <div class="profile">
+                <a href="User Account.html">
+                    <img src="Images/img_avatar.png" alt="profile picture" class="image" />
+                </a>
+                <div class="middle">
+                    <div class="text_profile">
+                        <a href="User Account.html">View Profile </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="next">
+
+            <div class="offers">
+                <a href="Weekly Offers.html" target="_blank">Weekly Offers</a>
+            </div>
+
+            <div class="search">
+                <input type="text" placeholder=" Search Items Here..." name="search" />
+            </div>
+
+        </div>
+
+        <div class="navigation">
+            <button><a href="Household.html">Household</a></button>
+            <button><a href="Grocery.html">Grocery</a></button>
+            <button><a href="Chilled.html">Chilled</a></button>
+            <button><a href="Pharmacy.html">Pharmacy</a></button>
+            <button><a href="Liquor.html">Liquor</a></button>
+            <button><a href="Beverages.html">Beverages</a></button>
+            <button><a href="Frozen Food.html">Frozen Food</a></button>
+            <button><a href="Meat.html">Meat</a></button>
+            <button><a href="Fish.html">Fish</a></button>
+            <button><a href="Vegetables.html">Vegetables</a></button>
+            <button><a href="Fruits.html">Fruits</a></button>
+        </div>
+
+    </header>
+
+    <!--Content-->
+
+    <div class="content">
+
+        <h1 class="headline">Pay Invoice </h1>
+
+        <img src="Images/card collection.jpg" alt="Card Collection" class="pic" />
+
+        <div class="amount">
+            <label class="amountText">Payment Amount: </label>
+            <label class="amount">Rs. 4520.00 </label>
+        </div>
+
+        <form method="post" onsubmit="return invoice(this);" class="formStyle" action="Successful.html">
+
+            <input type="text" id="firstName" name="firstName" value="" placeholder="First Name" class="first" />
+
+            <div class="last">
+                <input type="text" id="lastName" name="lastName" value="" placeholder="Last Name" class="lastInput" />
+            </div>
+
+            <input type="text" id="cardNumber" name="cardNumber" placeholder="Card Number" maxlength="16" class="first">
+
+            <br />
+            <br />
+
+            <div class="date-field">
+
+                <div class="date">
+                    <label class="expire">Expiry Date: </label>
+                </div>
+
+                <div class="month">
+                    <select name="Month" id="Month">
+                        <option value="">Month</option>
+                        <option value="january">January</option>
+                        <option value="february">February</option>
+                        <option value="march">March</option>
+                        <option value="april">April</option>
+                        <option value="may">May</option>
+                        <option value="june">June</option>
+                        <option value="july">July</option>
+                        <option value="august">August</option>
+                        <option value="september">September</option>
+                        <option value="october">October</option>
+                        <option value="november">November</option>
+                        <option value="december">December</option>
+                    </select>
+                </div>
+
+                <div class="year">
+                    <select name="Year" id="Year">
+                        <option value="">Year</option>
+                        <option value="2017">2017</option>
+                        <option value="2018">2018</option>
+                        <option value="2019">2019</option>
+                        <option value="2020">2020</option>
+                        <option value="2021">2021</option>
+                        <option value="2022">2022</option>
+                        <option value="2023">2023</option>
+                        <option value="2024">2024</option>
+                    </select>
+                </div>
+
+            </div>
+
+            <div class="cvv-input">
+                <input type="text" placeholder="CVV" maxlength="4" class="cvv" id="cvv" name="cvv">
+            </div>
+
+            <div class="re">
+                <input type="reset" class="confirm" value="Reset">
+             </div>
+
+            <div class="submission">
+                <input type="submit" class="confirm" value="Confirm and Pay">
+            </div>
+
+        </form>
+
+    </div>
+
+    <br />
+    <br />
+
+    <!--FOOTER-->
+
+    <footer class="footer">
+
+        <div class="text">
+            <a href="Contact Us.html" target="_blank">Contact Us</a>
+            <br />
+            <p>Copyright &#169; 2018</p>
+        </div>
+
+        <div class="cards">
+            <img src="Images/card collection.jpg" alt="payment cards" />
+        </div>
+
+    </footer>
+
+</body>
+
+</html>

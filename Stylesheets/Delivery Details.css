@@ -1,0 +1,156 @@
+﻿/* CSS for Delivery Details Page */
+
+.content h1
+{
+	text-align: center;
+	color: darkblue;
+}
+
+.box
+{
+    position: relative;
+    top:60%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    width: 400px;
+    padding:40px;
+    background-color: #DAF7A6;
+    box-sizing:0 15px 25px rgba(0,0,0,0.5);
+    border-radius: 10px;
+	top: 550px;
+	padding-bottom: 10px;
+}
+
+.drop
+{
+	position: relative;
+	left: 220px;
+	top: -25px;
+}
+
+.drop select {
+	width: 180px;
+	font-size: 20px;
+	opacity: 0.7; 
+}
+
+
+.drop option
+{
+	font-size: 20px;
+}
+
+.inputBox
+{
+    position:relative;
+}
+
+.inputBox input{
+    width:100%;
+    padding:10px 0;
+    font-size:16px;
+    color:#fff;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+    border:none;
+    border-bottom:1px solid #fff;
+    outline:none;
+    background: transparent;
+}
+
+.district label
+{
+	position: relative;
+    top:0;
+    left:0;
+    padding:10px 0;
+    font-size:20px;
+    color:darkgreen;
+    pointer-events: none;
+}
+
+.inputBox label
+{ 
+    position:absolute;
+    top:0;
+    left:0;
+    padding:10px 0;
+    font-size:20px;
+    color:darkgreen;
+    pointer-events: none;
+}
+
+.box .inputBox input:focus ~ label,.box .inputBox input:valid ~ label{
+    top:-19px;
+    left:0;
+    color:#03a9f4;
+    font-size:12px;
+}
+
+.box input[type="submit"], .box input[type="reset"]
+{
+    background:transparent;
+    border:none;
+    outline:none;
+    color:#fff;
+    background:#03a9f4;
+    padding:10px 20px;
+    cursor:pointer;
+    border-radius: 5px;
+}
+
+.confirm {
+	margin-bottom: 20px;
+	margin-left: 350px;
+	margin-top: 20px;
+	border-style: solid;
+	border-color: #38B32C;  /* Green */
+	border-width: 1.5px;
+	border-radius: 10px;
+	padding: 8px 10px;
+	sfont-size: 25px;
+	top: -50px;
+}
+
+.submission input {
+	font-size: 25px;
+	font-weight: bold;
+	background-color: #38B32C;  /* Green */
+	cursor: pointer;
+}
+
+.submission {
+	position: relative;
+	top: -85px;
+	left: -300px;
+}
+
+.reset {
+	position: relative;
+	margin-left: -120px;
+	top: 55px;
+}
+
+.re {
+	position: relative;
+	padding: 9px 15px;
+	font-size: 25px;
+	left: -230px;
+	top: -60px;
+}
+
+.re input {
+		background-color: #38B32C;  /* Green */
+		font-size: 25px;
+		font-weight: bold;
+		cursor: pointer;
+}
+
+.reset input {
+	position: relative;
+	top: -120px;
+	font-size: 25px;
+	font-weight: bold;
+	background-color: #38B32C;  /* Green */
+	cursor: pointer;
+}

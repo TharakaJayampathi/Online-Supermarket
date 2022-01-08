@@ -1,0 +1,62 @@
+﻿/* CSS for Item Details pages */
+
+.headline {
+	text-align: center;
+}
+
+.headline h1 {
+	margin-top: 2.8em;
+	font-size: 2.5em;
+	color: #1F2049;  /* Dark Blue */
+}
+
+.photo {
+	position: relative;
+	left: 150px;
+	top: -10px;
+}
+
+.info {
+	position: relative;
+	left: 300px;
+	font-weight: bold;
+	font-size: 30px;
+}
+
+.availability {
+	color: #159991;  /* Light Blue */
+}
+
+.price {
+	color: #3BAB11;  /* Light Green */
+}
+
+label {
+	color: #555555  /* Grey */
+}
+
+.info input {
+	width: 60px;
+	height: 22px;
+	margin-left: 15px;
+	text-align: center;
+	border-width: 2px;
+	border-radius: 5px;
+	border-style: solid;
+	display: inline-block;
+	font-size: 20px;
+}
+
+.info button {
+	margin-left: 250px;
+	border-color: #1F2049;  /* Dark Blue */
+	border-style: solid;
+	border-width: 3px;
+	border-radius: 5px;
+	text-align: center;
+    display: inline-block;
+    cursor: pointer;
+	font-size: 30px;
+	font-weight: bold;
+	padding: 10px 10px;
+}

@@ -1,0 +1,37 @@
+// JavaScript source code
+function formValidation() {
+
+    var fname = document.getElementById('firstname');
+    var lname = document.getElementById('lastname');
+    var password = document.getElementById('pwd');
+
+    if (fname.value.length == 0 || lname.value.length == 0) {
+        alert("All are reqiered");
+    }    else {
+        if (inputAlphabet(fname, "Not according to the pattern")) {
+            /*if (inputCharacters(password, "Password is not according to the pattern"))*/
+                return true;
+        }
+        else {
+            return false;
+        }
+    }
+}function inputAlphabet(inputtext, alertmsg) {
+        var alphaExp = /^[A-Za-z]+$/;
+        if (inputtext.value.match(alphaExp)) {
+            return true;
+        }
+        else {
+            alert(alertmsg);
+            return false;
+        }
+}function inputCharacters(inputtext, alertmsg) {
+        var charExp = /^[0-9]+$/;
+        if (inputtext.value.match(charExp)) {
+            return true;
+        }
+        else {
+            alert(alertmsg);
+            return false;
+        }
+}

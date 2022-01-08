@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link href="StyleSheet1.css" rel="stylesheet" type="text/css" />
+    <script src="Script2.js"></script>
+    <title></title>
+</head>
+<body>
+    <div class="container">
+        <div class="buttons">
+            <button class="paypal active" data-toggle="#paypal">Paypal</button>
+            <button class="credit" data-toggle="#credit">Credit</button>
+        </div>
+        <div class="input">
+            <form class="option active" id="paypal">
+                <input name="paypal-email" placeholder="Email" type="email" /><input name="paypal-password" placeholder="Password" type="password" />
+            </form>
+            <form class="option" disabled="disabled" id="credit">
+                <input class="cc-number" maxlength="19" name="credit-number" pattern="\d*" placeholder="Card Number" type="tel" /><input class="cc-expires" maxlength="7" name="credit-expires" pattern="\d*" placeholder="MM / YY" type="tel" /><input class="cc-cvc" maxlength="4" name="credit-cvc" pattern="\d*" placeholder="CVC" type="tel" />
+            </form>
+            <input class="form-submit" type="submit" value="Pay Now" />
+        </div>
+    </div>
+</body>
+</html>

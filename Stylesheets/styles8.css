@@ -1,0 +1,57 @@
+body, html{
+	background-color: #19203d;
+
+}
+
+
+textarea{
+	width: 75%;
+	background-color: #dbe1f9;
+	color: black;
+	padding: 14px 20px;
+	margin: 20px 0;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.int[type=text] {
+ width: 75%;
+ background-color: #dbe1f9;
+ color: black;
+ padding: 14px 20px;
+ margin: 20px 0px;
+ border: none;
+ border-radius: 4px;
+ cursor: pointer;
+}
+
+.int[type=submit] {
+ width: 75%;
+ background-color: #ffa807;
+ color: white;
+ padding: 14px 20px;
+ margin: 20px 0px;
+ border: none;
+ border-radius: 4px;
+ cursor: pointer;
+}
+
+
+.list {
+	color: #AAAAAA;
+	width: 400px;
+	margin: 2% auto;
+}
+
+.para {
+	color: #AAAAAA;
+	width: 500px;
+	margin: 2% auto;
+}
+
+form{
+	text-align: left;
+	width: 320px;
+	margin: 0 auto;
+}

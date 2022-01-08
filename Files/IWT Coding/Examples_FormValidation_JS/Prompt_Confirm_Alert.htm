@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>PROMPT/CONFIRM/ALERT</h2>
+
+<script>
+var txt;
+    var person = prompt("Please enter your name:", "NAME HERE");
+    if (person == null || person == "") {
+        txt = "User cancelled the prompt.";
+    } else {
+        txt = "HELLO " + person;
+    }
+    
+     if (confirm("Is it OK to display name?")) {
+         alert(txt);
+    } else {
+         alert("HELLO");
+    }
+   
+</script>
+
+</body>
+</html>

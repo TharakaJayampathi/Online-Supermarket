@@ -1,0 +1,64 @@
+﻿/* CSS for Privacy Policy page */
+
+.header1 {
+	text-align: center;
+	font-size: 2.5em;
+	margin-top: 2.6em;
+	color: #1F2049;  /* Dark Blue */
+}
+
+h2 {
+	text-align: center;
+	font-size: 2em;
+	margin-top: 1.2em;
+	margin-bottom: 0.7em;
+	color: #1F2049;  /* Dark Blue */
+}
+
+h3 {
+	font-size: 1.7em;
+	margin-bottom: 0.6em;
+	color: #1F2049;  /* Dark Blue */
+}
+
+h4 {
+	font-size: 1.3em;
+	margin-bottom: 0.9em;
+	color: #1F2049;  /* Dark Blue */
+}
+
+p {
+	font-size: 20px;
+}
+
+ul {
+	list-style-type: square;
+}
+
+ol {
+	list-style-type: lower-alpha;
+}
+
+li {
+	font-size: 20px;
+}
+
+#contact {
+	text-decoration: none;
+}
+
+#contact:link{
+	color: #0008F8;  /* Blue */
+}
+
+#contact:visited{
+	color: #0008F8;  /* Blue */
+}
+
+#contact:hover{
+	color: #0D055B;  /* Dark Blue */
+}
+
+#contact:active{
+	color: #38284F;  /* Purple */
+}

@@ -1,0 +1,14 @@
+.container
+  .buttons
+    button.paypal.active data-toggle="#paypal" Paypal
+    button.credit data-toggle="#credit" Credit
+  .input
+    form.option#paypal.active
+      input name="paypal-email" type="email" placeholder="Email"
+      input name="paypal-password" type="password" placeholder="Password"
+    form.option#credit disabled="disabled"
+      input name="credit-number" class="cc-number" type="tel" pattern="\d*" maxlength="19" placeholder="Card Number"
+      input name="credit-expires" class="cc-expires" type="tel" pattern="\d*" maxlength="7" placeholder="MM / YY"
+      input name="credit-cvc" class="cc-cvc" type="tel" pattern="\d*" maxlength="4" placeholder="CVC"
+
+    input type="submit" class="form-submit" value="Pay Now"
